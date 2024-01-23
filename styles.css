@@ -7,14 +7,14 @@ body{
     width:100vw;
 }
 .start{
-    margin:5%;
+    margin:0 5%;
     font-weight:bolder;
     font-size: 200%;
     color:darkslategray;
    
 }
 .hero{
-    margin:5%;
+    margin:1% 5%;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -28,7 +28,7 @@ body{
     background-color: black;
     color:white;
     height:5vw;
-    width:15vw;
+    width:15;
     text-decoration: none;
     padding:10%;
     border-radius: 20%;
@@ -82,6 +82,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    position:relative;
 }
 .search .search-bar .search-input{
     margin-top:2vh;
@@ -99,7 +100,9 @@ body{
     display: inline;
     width:7vh;
     height:7vh;
-    /* position:relative; */
+    position:absolute;
+    top: 1vw;
+    left: 30vw;
     margin-left:2%;
     border-radius: 50%;
 }
