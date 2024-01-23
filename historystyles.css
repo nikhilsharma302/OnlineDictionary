@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:5%;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    width:100%;
+}
+.hero .nav{
+    width:80%;
+}
+.hero .nav .logo {
+    display: inline;
+}
+.hero .nav .logo img{
+    width:5vw;
+    height: 5vw;
+}
+.hero .nav h2{
+    display:inline;
+    margin-left:5%;
+}
+.hero .history a {
+    background-color: black;
+    color:white;
+    height:5vw;
+    width:15vw;
+    text-decoration: none;
+    padding:10%;
+    border-radius: 20%;
+    cursor:pointer; 
+}
+.display{
+    height:90vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.display-items{
+    padding:2%;
+    background-color: darkgray;
+    width:40vw;
+    height:40vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    margin:1%;
+    font-size:100%;
+    font-family: sans-serif;
+    position:relative;
+}
+.delete{
+    position: absolute;
+    left:30vw;
+    bottom:1vh;
+    border:none;
+    width:10%;
+    height:10%;
+    font-size:100%;
+    border-radius: 50%;
+    color:black;
+    background-color: darkgray;
+}
+.word{
+    width:100%;
+    display:block;
+    height:10%;
+    margin:5%;
+    padding:5%;
+   
+}
+.meaning{
+    margin:0 5%;
+    width:100%;
+    padding:5%;
+    display:block;
+    /* height:80%; */
+    font-size: medium;
+}
