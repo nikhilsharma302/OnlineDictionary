@@ -8,6 +8,7 @@ const word=document.querySelector(".word");
 const meaning=document.querySelector(".meaning");
 const delbtn=document.querySelector(".delete");
 const card=document.querySelector(".display-items");
+const reset=document.querySelector(".rset");
 function getDetails(){
     let history=JSON.parse(localStorage.getItem("searchHistory"))
     return history===null?[]:history;
@@ -39,5 +40,7 @@ async function fetchApi(){
         return;
     }
 }
-
+reset.addEventListener('click',()=>{
+ input.value=""
+})
 
